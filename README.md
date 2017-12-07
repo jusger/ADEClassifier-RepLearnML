@@ -11,7 +11,7 @@ source activate [yournamehere]
 jupyter notebook
 ```
 
-If you are using a different platform, you may be able to just install the required packages:
+Alternatively, if you are using a different platform or the yml file doesn't work for some reason, you can just install the required packages:
 * numpy 
 * pandas 
 * scikit-learn 
@@ -20,5 +20,13 @@ If you are using a different platform, you may be able to just install the requi
 * jupyter 
 * bitarray 
 * scipy
+
+e.g.:
+
+```
+conda create -n [yournamehere]
+source activate [yournamehere]
+conda install numpy pandas scikit-learn matplotlib bokeh jupyter bitarray scipy
+```
 
 All work was done with Python version 3.6.1 on a CentOS machine. Additional testing (with identical results) was found on other architectures.

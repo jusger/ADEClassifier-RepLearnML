@@ -1,4 +1,4 @@
-name: cbaesp
+name: ADEClassifierRepLearnML
 channels:
 - conda-forge
 - defaults

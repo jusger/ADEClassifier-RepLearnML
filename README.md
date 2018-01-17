@@ -1,5 +1,4 @@
-# CbA-ESP
-Classification-by-Analogy with Embeddings of Semantic Predications for a JAMIA submission
+# Learning Predictive Models of Drug Side-effect Relationships from Distributed Representations of Literature-derived Semantic Predications
 
 For installation (assuming \*nix and that you have the Anaconda Python distribution installed):
 ```
